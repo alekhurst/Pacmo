@@ -140,7 +140,7 @@ $(document).ready(function() {
   $("#signup").validate({
     // if valid, post data via AJAX
     submitHandler: function(form) {
-      $.post("https://pacmo.herokuapp.com/subscribe.php", { email: $("#email").val() }, function(data) {
+      $.post("assets/php/subscribe.php", { email: $("#email").val() }, function(data) {
         $('#response').html(data);
       });
     },
