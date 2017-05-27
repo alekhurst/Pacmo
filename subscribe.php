@@ -1,8 +1,8 @@
 <?php
 
 	// Put your MailChimp API and List ID hehe
-	$api_key = '9de50218bc0b68d003bd606ccf71ff54-us9';
-	$list_id = '5fe6b01f04';
+	$api_key = '8498833ca06c7dc99e1118bef6a2a784-us16';
+	$list_id = '8e200d55ce';
 
 	// Let's start by including the MailChimp API wrapper
 	include('MailChimp.php');
