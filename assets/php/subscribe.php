@@ -20,7 +20,7 @@
 
 	if ($MailChimp->success()) {
 		// Success message
-		echo "<h4>Thank you, you have been added to our mailing list.</h4>";
+		echo "<h4>You will now receive updates about Pacmo!</h4>";
 	} else {
 		// Display error
 		echo $MailChimp->getLastError();
