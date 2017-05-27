@@ -1,0 +1,237 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pacmo | The Backpack Extender</title>
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/manifest.json">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicons/favicon.ico">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- /favicons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pacmo Backpack Extender Landing Page">
+    <meta name="keywords" content="Backpack Extender, Pacmo, Backpack Expander">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="container">
+          <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand page-scroll" href="#main"><img src="assets/logos/logo.png" width="114" height="30" alt="Pacmo" /></a>
+              </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a class="page-scroll" href="#subscribe">Stay Updated</a></li>
+                  <li><a class="page-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+          </div>
+        </nav><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+
+    <div class="main product" id="main"><!-- Main Section-->
+      <div class="hero-section">
+        <div class="container nopadding">
+          <div class="col-md-6">
+            <img class="img-responsive wow fadeIn" src="assets/images/800x800_hero_placeholder.jpg" alt="Hero Image" />
+          </div>
+          <div class="col-md-6">
+            <div class="hero-content">
+              <h1 class="wow fadeInUp" data-wow-delay="0s">Pack more with Pacmo</h1>
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                Pacmo is a one size fits all backpack extender that attaches to any backpack. It serves as an extra compartment
+                for weekend trips, chargers, gym cloths, your lunch, and anything else that takes up space.
+              </p>
+              <a class="btn btn-primary btn-action popup wow fadeInUp page-scroll" data-wow-delay="0.2s" href="#how-it-works">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about text-center">
+        <div class="container">
+          <div class="about-content">
+            <h2 class="wow fadeInUp" data-wow-delay="0.1s">Q: "How often do you run out of room and end up taking a second bag?" A: "Never, I have a Pacmo"
+            </h2>
+            <h3 class="wow fadeInUp" data-wow-delay="0.2s">- The Guy Who Makes Them</h3>
+          </div>
+        </div>
+      </div>
+
+      <div id="pricing" class="pricing">
+        <div class="container">
+          <div class="col-md-6">
+            <div class="pricing-content">
+              <h1 class="wow fadeInUp" data-wow-delay="0.1s">Pacmo</h1>
+              <h4 class="wow fadeInUp" data-wow-delay="0.2s">One size fits all</h4>
+              <p class="wow fadeInUp" data-wow-delay="0.3s">We're still developing prototypes. If you'd like to know our progress you can <a class="page-scroll" href="#subscribe">stay updated</a></p>
+              <div class="btn-buy">
+                <img class="img-responsive wow fadeIn" data-wow-delay="0.4s" src="assets/logos/kickstarter_logo.png" width="200" alt="Buy" />
+              </div>
+              <div class="price-tag">
+                <h2 class="wow fadeInUp" data-wow-delay="0.5s">available soon!</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="img-responsive wow fadeIn" src="assets/images/800x480_pricing_placeholder.png" alt="Image Pricing" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Subscribe Form -->
+      <div id="subscribe" class="cta-sub no-color">
+        <div class="container">
+          <div class="cta-inner">
+            <h1 class="wow fadeInUp" data-wow-delay="0s">Stay updated and gain early access</h1>
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+              Don't worry, we won't need your credit card details. Just enter your <br class="hidden-xs"> email address and we'll take care of the rest.
+              </p>
+            <div class="form wow fadeInUp" data-wow-delay="0.3s">
+              <form id="signup" class="formee" action="https://pacmo.herokuapp.com/subscribe.php" method="post">
+          			<input name="email" id="email" type="text" /><input class="right inputnew" type="submit" title="Send" value="Subscribe" />
+          		</form>
+          		<div id="response"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="how-it-works" class="pitch text-center">
+        <div class="container">
+          <div class="pitch-intro">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s">How Does It Work ?</h1>
+          </div>
+          <div class="col-md-12">
+            <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="pitch-icon">
+                <i class="ion-paperclip"></i>
+              </div>
+              <div class="pitch-content">
+                <h1>Attach It</h1>
+                <p>
+                  Use the built in straps to attach the Pacmo to the back of your backpack.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="pitch-icon">
+                <i class="ion-cube"></i>
+              </div>
+              <div class="pitch-content">
+                <h1>Pack It</h1>
+                <p>
+                  Anything you might need today? Maybe a jacket in case it rains? Stick it in the Pacmo and be prepared.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="pitch-icon">
+                <i class="ion-android-walk"></i>
+              </div>
+              <div class="pitch-content">
+                <h1>Go</h1>
+                <p>
+                  Get out there and do yo thang!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="features" class="features">
+        <div class="container">
+          <div class="features-inner">
+            <div class="col-md-6">
+              <img class="img-responsive wow fadeIn" src="assets/images/770x660_features_placeholder.png" alt="Features" />
+            </div>
+            <div class="col-md-6">
+              <div class="features-list">
+                <h1 class="wow fadeInUp" data-wow-delay="0.1s">Features & Specifications</h1>
+                <ul class="wow fadeInUp" data-wow-delay="0.2s">
+                  <li>Firstly, our style game is on fleek</li>
+                  <li>Highly water resistant: contains and repels water</li>
+                  <li>15L total capacity</li>
+                  <li>Exterior - high grade ballistic nylon</li>
+                  <li>Straps - ballistic nylon webbing</li>
+                  <li>Lining - ripstop nylon</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+        <div class="footer">
+          <div class="container">
+            <div class="col-md-6">
+                <img src="assets/logos/logo.png" width="114" height="30" alt="Image" />
+                <p>
+                  A product engineered to empower your adventures. <br class="hidden-xs"> We want you to leave the house saying "Shiggidy Diggidy". <br class="hidden-xs"> Based in San Francisco, CA.
+                </p>
+
+              <div class="footer-text">
+                <p>
+                  Copyright © 2016 Pacmo Inc. All Rights Reserved.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div id="contact" class="contact text-center">
+                <i class="ion-ios-chatboxes-outline"></i>
+                <h1>Need Help ?</h1>
+                <p>
+                  Contact us if you have any <br class="hidden-xs"> questions. We'll help you out.
+                </p>
+                <a href="mailto:support@gmail.com">support@gmail.com</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Scroll To Top -->
+
+          <a id="back-top" class="back-to-top page-scroll" href="#main">
+          <i class="ion-ios-arrow-thin-up"></i>
+          </a>
+
+        <!-- Scroll To Top Ends-->
+
+    </div><!-- Main Section -->
+  </div><!-- Wrapper-->
+
+<!-- Jquery and Js Plugins -->
+  <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins.js"></script>
+  <script type="text/javascript" src="assets/js/menu.js"></script>
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+  </body>
+</html>
